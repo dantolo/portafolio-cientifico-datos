@@ -39,23 +39,19 @@ Realizar un análisis exploratorio de datos (EDA) sobre choques registrados en G
 
 ---
 
-## 🔎 Resultados destacados
+## 🔍 Resultados destacados
 
-- Mayor número de choques entre las 6pm y 9pm.
-- Días con más choques: viernes y lunes.
-- Zona centro y Periférico concentran gran parte de los incidentes.
-
----
-
-## 📝 Archivos incluidos
-
-- `notebook.ipynb`: Análisis completo en Python
-- `accidentes_gdl_limpio.csv`: Datos listos para Tableau
-- `dashboard_tableau_link.txt`: Enlace al dashboard interactivo
-- `resumen.pdf`: Reporte ejecutivo del análisis
+- Mayor número de choques entre las **15:00 y 19:59 hrs**
+- Días con más accidentes: **viernes, sábado y domingo**
+- El análisis temporal sugiere relación con tráfico laboral y social
 
 ---
 
+## 📁 Archivos incluidos
+
+- [`notebook.ipynb`](https://colab.research.google.com/drive/1m136KpvcH_eTBcuKPBqBNN4_Lab4GM77?usp=sharing): Análisis completo en Python (Colab)
+- `choques_gdl_limpio.csv`: Datos limpios y listos para Tableau
+- `Proyecto_01_Choques_GDL_2015_2024_FINAL.pdf`: Reporte profesional en PDF
 ## ✍️ Autor
 
 **Dante Ibarra**  
