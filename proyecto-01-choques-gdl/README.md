@@ -33,8 +33,6 @@ Realizar un análisis exploratorio de datos (EDA) sobre choques registrados en G
 
 - Visualización de accidentes por hora
 - Choques por día de la semana
-- Análisis por tipo de vehículo
-- Identificación de puntos críticos en la ciudad
 - Limpieza y transformación de datos para análisis en Tableau
 
 ---
@@ -49,9 +47,13 @@ Realizar un análisis exploratorio de datos (EDA) sobre choques registrados en G
 
 ## 📁 Archivos incluidos
 
-- [`notebook.ipynb`](https://colab.research.google.com/drive/1m136KpvcH_eTBcuKPBqBNN4_Lab4GM77?usp=sharing): Análisis completo en Python (Colab)
-- `choques_gdl_limpio.csv`: Datos limpios y listos para Tableau
-- `Proyecto_01_Choques_GDL_2015_2024_FINAL.pdf`: Reporte profesional en PDF
+## 📁 Archivos incluidos
+
+- [`notebook.ipynb`]([./notebook.ipynb](https://colab.research.google.com/drive/1m136KpvcH_eTBcuKPBqBNN4_Lab4GM77?usp=sharing)): Análisis completo en Python (Colab)
+- [`choques_gdl_limpio.csv`](./choques_gdl_limpio.csv): Dataset filtrado para Guadalajara (2015–2024)
+- [`Proyecto_01_Choques_GDL_2015_2024_FINAL.pdf`](./Proyecto_01_Choques_GDL_2015_2024_FINAL.pdf): Reporte en PDF con gráficos y conclusiones
+- [🔗 Ver dashboard interactivo en Tableau Public](https://public.tableau.com/app/profile/dante.alexis.ibarra.franco/viz/SiniestrosVialesGuadalajara20152024/Dashboard1?publish=yes): Visualización dinámica de los siniestros por día y horario
+
 ## ✍️ Autor
 
 **Dante Ibarra**  
