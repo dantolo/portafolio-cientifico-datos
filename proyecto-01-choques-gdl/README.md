@@ -13,7 +13,7 @@ Realizar un análisis exploratorio de datos (EDA) sobre choques registrados en G
 ## 📦 Dataset
 
 **Fuente:** Datos Abiertos Jalisco  
-🔗 https://datos.jalisco.gob.mx/dataset/hechos-viales
+🔗 [https://datos.jalisco.gob.mx/dataset/hechos-viales](https://iieg.gob.mx/siniestralimap/index.html?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExRTJ3NWZJR0RwNjQ0RTV3UQEe1JEHxiBvmYsBdwwZcSJYopjYzKyGVXuy5wyC-xpbZO5cQLHLMnnD6IN9k9o_aem_adIRRYpsm9B-fr8ii2ykPw)
 
 **Formato:** CSV  
 **Contenido:** Fecha, hora, municipio, causa del choque, tipo de vehículo, lesionados, etc.
