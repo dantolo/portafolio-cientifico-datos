@@ -34,3 +34,6 @@ extraer_datos_json(): Extrae directamente del <script> embebido en la web.
 procesar_pagina(): Implementa retry inteligente y espera aleatoria.
 
 recuperar_paginas_fallidas(): Intenta rescatar propiedades que fallaron en el primer scraping.
+
+
+##NO SE ANEXA EL CÓDIGO POR CUESTIONES DE SEGURIDAD##
