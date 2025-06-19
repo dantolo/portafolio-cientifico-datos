@@ -1,4 +1,4 @@
-🏠 Scraper de Casas en Venta - Guadalajara (Inmuebles24 y Casas y Terrenos)
+🏠 Scraper de Casas en Venta - Guadalajara 
 Este proyecto implementa un scraper automatizado en Python con Playwright para extraer información detallada sobre propiedades (casas y departamentos) en venta en Guadalajara, Jalisco. El objetivo es construir una base de datos estructurada de inmuebles para análisis de mercado inmobiliario.
 
 🔧 Tecnologías utilizadas
@@ -13,7 +13,7 @@ Regex y JSON (limpieza y parseo)
 CSV para almacenamiento
 
 📄 Qué hace el script
-Se conecta a la página de CasasyTerrenos.com
+Se conecta a la página...
 
 Navega por hasta 80 páginas de resultados
 
