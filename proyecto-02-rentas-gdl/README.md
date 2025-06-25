@@ -1,6 +1,6 @@
 # 🏙️ ¿Dónde invertir en Guadalajara?
 
-Este proyecto analiza el mercado inmobiliario en Guadalajara, Jalisco, México, para detectar colonias con alto potencial de inversión utilizando técnicas de scraping, análisis de datos y visualización avanzada.
+Este proyecto analiza el mercado inmobiliario de casas en Guadalajara, Jalisco, México, para detectar colonias con alto potencial de inversión utilizando técnicas de scraping, análisis de datos y visualización avanzada.
 
 ## 📌 Objetivo
 
@@ -52,9 +52,12 @@ Se crearon 3 dashboards públicos con Tableau:
 
 ## 📁 Archivos clave
 
-- `scraper_inmuebles24.py`: Script de scraping con Selenium.
-- `datos_propiedades_limpias.csv`: Dataset final limpio.
-- [`Analisis_Casas.ipynb`]: (https://colab.research.google.com/drive/13JgGcJBUQjwUTmORkNztegbvwoB_Y1e3?usp=sharing)
+Puedes revisar el scraper aquí:  
+[`scraper_inmuebles24.py`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/codigo-py-scrapper/README.md)
+Accede al archivo `.csv` con los datos limpios y listos para análisis:  
+[`datos_propiedades_limpias.csv`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/datos_propiedades_limpias.csv)
+accede al libro donde se trataron los datos:
+[`Analisis_Casas.ipynb`](https://colab.research.google.com/drive/13JgGcJBUQjwUTmORkNztegbvwoB_Y1e3?usp=sharing)
 
 ---
 
