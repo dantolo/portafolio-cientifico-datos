@@ -52,12 +52,11 @@ Se crearon 3 dashboards públicos con Tableau:
 
 ## 📁 Archivos clave
 
-Puedes revisar el scraper aquí:  
-[`scraper_inmuebles24.py`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/codigo-py-scrapper/README.md)
-Accede al archivo `.csv` con los datos limpios y listos para análisis:  
-[`datos_propiedades_limpias.csv`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/datos_propiedades_limpias.csv)
-accede al libro donde se trataron los datos:
-[`Analisis_Casas.ipynb`](https://colab.research.google.com/drive/13JgGcJBUQjwUTmORkNztegbvwoB_Y1e3?usp=sharing)
+📄 Código scraper: [`scraper_inmuebles24.py`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/codigo-py-scrapper/scraper_inmuebles24.py)  
+📊 Datos limpios: [`datos_propiedades_limpias.csv`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/datos_propiedades_limpias.csv)  
+📓 Análisis exploratorio: [`Analisis_Casas.ipynb`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/Analisis_Casas.ipynb)  
+📘 Informe visual completo: [`Informe_Analisis_Rentas_GDL.pdf`](https://github.com/dantolo/portafolio-cientifico-datos/blob/main/proyecto-02-rentas-gdl/Informe_Analisis_Rentas_GDL.pdf)
+
 
 ---
 
