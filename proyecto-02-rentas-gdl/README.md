@@ -1,44 +1,71 @@
-# 🏘️ Análisis de precios de renta en Guadalajara
+# 🏙️ ¿Dónde invertir en Guadalajara?
 
-**Proyecto 2 del portafolio de ciencia de datos**  
-Autor: Dante Alexis Ibarra Franco
+Este proyecto analiza el mercado inmobiliario en Guadalajara, Jalisco, México, para detectar colonias con alto potencial de inversión utilizando técnicas de scraping, análisis de datos y visualización avanzada.
 
----
+## 📌 Objetivo
 
-## 🎯 Objetivo
-
-Analizar cómo varían los precios de renta de vivienda en Guadalajara según zona, tipo de propiedad y número de recámaras.
+Ayudar a inversionistas a identificar zonas con alta rentabilidad inmobiliaria mediante el análisis de propiedades y sus precios por metro cuadrado.
 
 ---
 
-## 📁 Contenido
+## 🧠 Tecnologías utilizadas
 
-- `data/`: dataset de rentas
-- `notebooks/`: análisis con pandas y visualización
-- `images/`: gráficas generadas
-- `README.md`: este archivo
-
----
-
-## 🧠 Habilidades aplicadas
-
-- Limpieza de datos con `pandas`
-- Visualización con `seaborn` y `matplotlib`
-- Análisis por zona, tipo de propiedad y número de habitaciones
-- Comunicación de insights con gráficos
+- **Python** (Pandas, NumPy, Regex, Geopy)
+- **Selenium** (scraping automatizado)
+- **Google Colab** (procesamiento en la nube)
+- **Tableau** (visualización)
+- **Excel** (validación cruzada)
+- **GitHub** (repositorio de desarrollo)
 
 ---
 
-## 📊 Dataset
+## 📊 Proceso
 
-(Coloca aquí el nombre o fuente del dataset cuando lo tengamos)
+### 1. Scraping
+- Extracción automatizada de datos 
+- Se recopilan: Título, Precio, Superficie, Colonia, Descripción.
+
+### 2. Limpieza y preparación
+- Limpieza de precios y superficies.
+- Eliminación de duplicados y valores atípicos (< $200,000 MXN).
+- Normalización de nombres de colonias (sin stopwords, mayúsculas, etc.).
+- Cálculo de **precio por metro cuadrado**.
+
+### 3. Clasificación de propiedades
+- Se clasifican en 5 niveles de rentabilidad:
+  - Muy Alta Rentabilidad
+  - Alta Rentabilidad
+  - Promedio
+  - Baja
+  - Muy Baja
+
+Esto se basa en su comparación con el precio promedio por m² de su colonia.
+
+### 4. Visualización de datos
+Se crearon 3 dashboards públicos con Tableau:
+
+1. 🔗 [Precio promedio por colonia](https://public.tableau.com/app/profile/dante.alexis.ibarra.franco/viz/DndeinvertirenGuadalajara/Dashboard1)
+2. 🔗 [Distribución de rentabilidad](https://public.tableau.com/app/profile/dante.alexis.ibarra.franco/viz/DndeinvertirenGuadalajara2/Dashboard12)
+3. 🔗 [Clasificación de propiedades](https://public.tableau.com/app/profile/dante.alexis.ibarra.franco/viz/DndeinvertirenGuadalajara3/Dashboard3)
 
 ---
 
-## 📌 Próximos pasos
+## 📁 Archivos clave
 
-- Calcular relación m²/precio
-- Geolocalización por colonia
-- Dashboard en Tableau
+- `scraper_inmuebles24.py`: Script de scraping con Selenium.
+- `datos_propiedades_limpias.csv`: Dataset final limpio.
+- [`Analisis_Casas.ipynb`]: (https://colab.research.google.com/drive/13JgGcJBUQjwUTmORkNztegbvwoB_Y1e3?usp=sharing)
 
 ---
+
+## 🤝 Contribuciones
+
+Este proyecto fue desarrollado por [Dante Alexis Ibarra Franco](https://www.linkedin.com/in/dantealexisibarra/), apasionado por los datos, la visualización y la inversión inteligente.
+
+---
+
+## 🚀 ¿Qué sigue?
+
+Estamos planeando una versión 2.0 usando **Streamlit** para hacer una app web interactiva con IA para detectar oportunidades de compra automáticamente.
+
+¡Estén atentos!
